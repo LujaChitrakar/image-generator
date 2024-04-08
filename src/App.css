@@ -1,0 +1,8 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  color: #0c222d;
+}

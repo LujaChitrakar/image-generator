@@ -1,0 +1,88 @@
+.container {
+  margin-top: 60px;
+  display: block;
+  position: sticky;
+  margin-left: 168px;
+}
+.img {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  width: 380px;
+  height: auto;
+}
+#mouth {
+  z-index: 4;
+}
+#accessories {
+  z-index: 6;
+}
+#eye {
+  z-index: 8;
+}
+#hair {
+  z-index: 5;
+}
+
+/* options */
+.options {
+  margin-top: 20px;
+  float: right;
+  display: block;
+}
+
+.optionSection,
+.secondSection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
+  margin-right: 12rem;
+}
+.optionSection button,
+.secondSection button,
+.download button {
+  background-color: #539abd;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: 400;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.optionSection button:focus,
+.secondSection button:focus,
+.download button:focus,
+.optionSection button:hover,
+.secondSection button:hover,
+.download button:hover {
+  background-color: #d9e5eb;
+  color: #3e738e;
+}
+
+.optionSection button {
+  width: 120px;
+}
+.secondSection button {
+  width: 100px;
+  margin-left: 14px;
+}
+.secondSection {
+  margin-top: 80px;
+}
+.secondImage img {
+  width: 48px;
+  margin-left: 28px;
+  height: 48px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 0.2px solid #aebac0;
+}
+
+.download {
+  margin-top: 30rem;
+  margin-left: 304px;
+}

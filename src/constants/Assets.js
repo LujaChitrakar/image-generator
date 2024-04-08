@@ -33,7 +33,7 @@ import forwardEar from "../assets/ears/tilt-forward.png";
 import angry from "../assets/eyes/angry.png";
 import defEye from "../assets/eyes/default.png";
 import naughty from "../assets/eyes/naughty.png";
-import panda from "../assets/eyes/naughty.png";
+import panda from "../assets/eyes/panda.png";
 import smart from "../assets/eyes/smart.png";
 import star from "../assets/eyes/star.png";
 
@@ -43,7 +43,6 @@ import curl from "../assets/hair/curls.png";
 import defHair from "../assets/hair/default.png";
 import elegant from "../assets/hair/elegant.png";
 import fancy from "../assets/hair/fancy.png";
-import quiff from "../assets/hair/quiff.png";
 import short from "../assets/hair/short.png";
 
 //leg
@@ -106,7 +105,6 @@ const images = {
   defHair,
   elegant,
   fancy,
-  quiff,
   short,
   bubbleTea,
   cookie,
